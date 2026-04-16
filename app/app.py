@@ -3,10 +3,10 @@ import numpy as np
 import joblib
 import os
 
-# Debug (optional – remove later)
+# Debug 
 st.write("Files in directory:", os.listdir())
 
-# Load model and scalers (correct paths)
+# Load model and scalers
 try:
     model = joblib.load("fraud_model.pkl")
     scaler_amount = joblib.load("scaler_amount.pkl")
