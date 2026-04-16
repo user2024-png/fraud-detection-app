@@ -4,7 +4,6 @@
 
 This project develops a machine learning system to detect fraudulent credit card transactions. It applies data preprocessing, feature scaling, and classification algorithms to identify suspicious transactions. The final model is deployed using Streamlit, enabling users to perform real-time fraud predictions through an interactive web application.
 
----
 
 ## Objectives
 
@@ -13,13 +12,13 @@ This project develops a machine learning system to detect fraudulent credit card
 * Evaluate performance using appropriate metrics
 * Deploy the model as a web-based application
 
----
+
 
 ## Dataset
 
-The dataset used is the Credit Card Fraud Detection dataset from Kaggle. It contains anonymized features (V1–V28), along with Time, Amount, and Class labels where Class indicates fraudulent or normal transactions.
+The dataset used is the Credit Card Fraud Detection dataset from Kaggle. It contains anonymized features (V1–V28), along with Time, Amount, and Class labels where Class indicates fraudulent or normal transactions. Dataset Link: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?resource=download
 
----
+
 
 ## Technologies Used
 
@@ -30,7 +29,7 @@ The dataset used is the Credit Card Fraud Detection dataset from Kaggle. It cont
 * Matplotlib
 * Streamlit
 
----
+
 
 ## Machine Learning Models
 
@@ -42,25 +41,7 @@ The following models were implemented:
 
 Random Forest was selected as the final model due to its better performance in terms of precision, recall, and F1-score.
 
----
 
-## Project Structure
-
-Fraud-Detection/
-│
-├── app/
-│   ├── app.py
-│   ├── requirements.txt
-│
-├── notebooks/
-│   └── fraud_detection.ipynb
-│
-├── results/
-│   ├── models/
-│   ├── plots/
-│   └── metrics/
-
----
 
 ## Features
 
@@ -70,13 +51,12 @@ Fraud-Detection/
 * Performance visualization
 * Real-time fraud prediction using Streamlit
 
----
 
 ## Deployment
 
 The application is deployed using Streamlit Community Cloud and can be accessed via a web browser. Users can input transaction details and receive instant predictions about whether a transaction is fraudulent or not.
 
----
+
 
 ## Conclusion
 
